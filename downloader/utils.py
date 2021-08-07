@@ -1,7 +1,7 @@
 from pytube import YouTube
 
 
-def get_video(url):
+def get_video(url: str) -> str:
     """ Get youtube video from the url that user input
         :param url: youtube url that user input in the form
 
@@ -17,7 +17,7 @@ def get_video(url):
     }
 
 
-def get_streams(url):
+def get_streams(url: str) -> str:
     """ Get all of the video resolution and give it to user so they can choose resolution to download
         :param url: url that user input on the form
     """
